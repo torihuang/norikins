@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "4.4.x",
+    "npm": "2.15.x"
+  },
   "author": "Tori Huang",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
     "jade": "^1.11.0",
+    "mongoose": "^4.4.20",
     "morgan": "^1.7.0",
     "stylus": "^0.54.5"
   }
