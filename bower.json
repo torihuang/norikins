@@ -1,0 +1,17 @@
+{
+  "name": "dogdata",
+  "description": "Dog data",
+  "main": "index.js",
+  "authors": [
+    "Tori Huang"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "angular": "^1.5.6",
+    "angular-resource": "^1.5.6",
+    "angular-route": "^1.5.6"
+  }
+}

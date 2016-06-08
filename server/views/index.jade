@@ -1,0 +1,19 @@
+extends ../includes/layout
+
+block main-content
+  section.content
+
+    .navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          .navbar-brand Norikins
+        ul.nav.navbar-nav
+          li
+            a(href="/photos") Photos
+          li
+            a(href="/about") About
+          li
+            a(href="/contact") Contact
+        .navbar-right(ng-include="'/partials/navbar-login'")
+
+    div(ng-view)
